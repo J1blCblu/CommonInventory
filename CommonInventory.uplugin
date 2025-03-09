@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "Common Inventory",
+	"Description": "Gameplay framework for managing a set of items.",
+	"Category": "Gameplay",
+	"CreatedBy": "Ivan Baktenkov J1blCblu",
+	"CreatedByURL": "https://github.com/J1blCblu",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CommonInventory",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "CommonInventoryEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CommonInventoryTests",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "CommonInventoryKismet",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VariadicStruct",
+			"Enabled": true
+		},
+		{
+			"Name": "StructUtils",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}
