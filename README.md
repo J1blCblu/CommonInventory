@@ -11,3 +11,7 @@ Next global milestones:
 1. `UCommonInventoryComponent` implementation.
 2. Network support through the command controller.
 3. Various utilities for fully utilizing the system.
+4. Various tests for validating the functionality.
+
+# Dependencies
+* [**Variadic Struct**](https://github.com/J1blCblu/VariadicStruct).
